@@ -6,11 +6,11 @@ public class Objetivo1 {
     System.out.println("Insira um numero N: ");
     int N = sc.nextInt();
     int soma = 0;
-    
-    for (int 1 + 1 <= N; 1++) {
-        soma = soma + 1;
-    }
-    System.out.printf("A soma e igual a, %d\n, soma");
+     
+    for (int i = 1; i <= N; i++) {
+            soma = soma + i;
+        }
+    System.out.printf("A soma e igual a %d\n", soma);
 
     sc.close();
  }
